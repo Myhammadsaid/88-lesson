@@ -1,0 +1,32 @@
+.hero {
+  margin-bottom: 57px;
+}
+
+.hero__style {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 65px;
+  border-radius: 24px;
+  background: #eaf1eb;
+}
+
+.hero__text {
+  color: #1f2533;
+  font-size: 48px;
+  margin-bottom: 12px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: -0.05em;
+  text-align: center;
+}
+
+.hero__par {
+  max-width: 560px;
+  color: #1f2533;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: center;
+}

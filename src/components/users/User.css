@@ -1,0 +1,51 @@
+.user {
+  margin-bottom: 79px;
+}
+
+.user__title {
+  color: #1f2533;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  margin-bottom: 79px;
+  text-align: center;
+  letter-spacing: -0.05em;
+}
+
+.user__cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.user__card {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 16px;
+}
+
+.user__card img {
+  width: 255px;
+  height: 255px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.user__text {
+  color: #1f2533;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: -0.05em;
+  text-align: center;
+}
+
+.user__par {
+  color: #1f2533;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: center;
+}

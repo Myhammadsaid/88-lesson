@@ -1,0 +1,130 @@
+.message {
+  margin-bottom: 112px;
+}
+
+.message__style {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 32px 40px;
+  border-radius: 24px;
+  background: #eaf1eb;
+}
+
+.message__content:first-child {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.message__content:last-child {
+  padding: 26px 33px;
+  border-radius: 29px;
+  background: #ffffff;
+}
+
+.message__content:last-child form {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+}
+
+.message__text {
+  color: #1f2533;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  margin-bottom: 15px;
+  letter-spacing: -0.05em;
+}
+
+.message__par {
+  max-width: 249px;
+  color: #1f2533;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+}
+.message__box {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+}
+.message__phone,
+.message__email {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.message__email img {
+  border-radius: 15px;
+  background: #fff;
+  padding: 16px;
+}
+.message__phone img {
+  border-radius: 15px;
+  background: #fff;
+  padding: 16px;
+}
+
+.message__phone,
+.message__email span {
+  color: #70737c;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31.5px;
+  letter-spacing: -0.02em;
+}
+
+.message__inputs span {
+  color: #70737c;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.95px;
+}
+
+.message__inputs {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 2px;
+}
+
+.message__inputs input,
+textarea {
+  padding: 14px 0;
+  text-indent: 24px;
+}
+
+.message__inputs textarea {
+  resize: none;
+  height: 133px;
+}
+
+.message__btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.message__btn {
+  width: 160px;
+  height: 51px;
+  gap: 10px;
+  border-radius: 8px;
+  background: #359740;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28.51px;
+  letter-spacing: -0.035em;
+}
+
+.message__btns span {
+  max-width: 222px;
+  color: #70737c;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.95px;
+}

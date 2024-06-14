@@ -1,0 +1,89 @@
+/* MEDIA QUERIES */
+@media (max-width: 1115px) {
+  #navbar-responsive {
+    position: fixed;
+    top: 100px;
+    bottom: 0;
+    left: -100%;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    transition: 0.5s;
+  }
+
+  .menu-btn {
+    display: flex;
+  }
+  .footer__item {
+    justify-content: space-between !important;
+    gap: 0 !important;
+  }
+  .nav__item {
+    color: #000 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav__items img,
+  .header__form {
+    display: none !important;
+  }
+  .footer__item img {
+    display: none !important;
+  }
+  .footer__item {
+    flex-wrap: wrap;
+    justify-content: center !important;
+    gap: 10px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .product__content img {
+    width: 100%;
+  }
+  .hero__text,
+  .product__text,
+  .user__title {
+    font-size: 28px !important;
+    line-height: normal;
+  }
+  .hero__par {
+    font-size: 14px !important;
+  }
+  .hero__style {
+    padding: 30px !important;
+  }
+  .message__btns span {
+    font-size: 12px !important;
+  }
+  .message__btn {
+    font-size: 12px !important;
+  }
+  .message__style {
+    padding: 20px !important;
+  }
+  .message__text {
+    font-size: 28px !important;
+    line-height: normal;
+  }
+  .message__par {
+    font-size: 14px !important;
+    margin-bottom: 10px;
+  }
+  .message__phone span {
+    font-size: 14px !important;
+  }
+  .message__email span {
+    font-size: 14px !important;
+  }
+  .message__phone img {
+    padding: 5px !important;
+  }
+  .message__email img {
+    padding: 5px !important;
+  }
+}

@@ -1,0 +1,39 @@
+.product {
+  margin-bottom: 125px;
+}
+
+.product__style {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 94px;
+}
+
+.product__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.product__box {
+  max-width: 521px;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 27px;
+}
+
+.product__text {
+  color: #1f2533;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: -0.05em;
+}
+
+.product__par {
+  color: #1f2533;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+}
