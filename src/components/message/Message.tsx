@@ -19,7 +19,9 @@ let initialState: FormData = {
 const Message: React.FC = () => {
   const [formData, setFormData] = useState<FormData>(initialState);
 
-  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     let { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
